@@ -21,7 +21,7 @@ class TodoList extends Component {
         <input>
         </input>
         <button
-          onClick={() => {console.log('a',this.props.todolist); this.props.addTodo(this.props.todolist) }}>
+          onClick={() => {this.props.addTodo() }}>
           Submit
         </button>
         <div>

@@ -1,9 +1,7 @@
 import {combineReducers} from 'redux';
 import todolist from './Todos'
-import todoController from './TodoController'
 const rootReducer = combineReducers({
-  todolist,
-  todoController
+  todolist
 });
 
 export default rootReducer;
